@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    background: #333;
+}
+
+.page-header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./../img/header-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 25vh;
+    color: #fff;
+    padding: 70px 0;
+}
+
+.main-title {
+    font-size: 40px;
+    width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.header-paragraph {
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+}
+
+.button {
+    display: inline-block;
+    background: #333;
+    text-decoration: none;
+    color: #fff;
+    border: 1px #666 solid;
+    padding: 15px;
+    margin-top: 10px;
+}
