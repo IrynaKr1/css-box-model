@@ -16,7 +16,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 25vh;
+    height: 50vh;
     color: #fff;
     padding: 70px 0;
 }
@@ -42,4 +42,39 @@ body {
     border: 1px #666 solid;
     padding: 15px;
     margin-top: 10px;
+}
+
+.main-info {
+    color: #333;
+    background: #eaeaea;
+    margin: 0 auto;
+    padding: 10px;
+    
+}
+
+.info-title, .info-paragraph {
+    padding: 10px;
+}
+
+.column {
+    font-size: 0;
+}
+
+.tiles {
+    display: inline-block;
+    font-size: 17px;
+    width: calc(100% / 3);
+    background: #fff;
+    padding: 5px;
+}
+
+.tiles h3 {
+    padding: 10px;
+}
+
+.tiles img {
+    max-width: 100%;
+    height: 150px;
+    display: block;
+    margin: 0 auto;
 }
