@@ -56,16 +56,19 @@ body {
     padding: 10px;
 }
 
-.column {
+.column, .contact-info, .page-footer {
     font-size: 0;
 }
 
-.tiles {
+.tiles, .tiles2, .p1 {
     display: inline-block;
     font-size: 17px;
-    width: calc(100% / 3);
     background: #fff;
     padding: 5px;
+}
+
+.tiles {
+    width: calc(100% / 3);
 }
 
 .tiles h3 {
@@ -77,4 +80,16 @@ body {
     height: 150px;
     display: block;
     margin: 0 auto;
+}
+
+.tiles2 {
+    width: calc(100% / 2);
+}
+
+.tiles2 h2, p {
+    padding: 10px;
+}
+
+.p1 {
+    width: calc(100% / 2);
 }
