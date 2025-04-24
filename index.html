@@ -1,73 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <title>CSS Box Model</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header class="page-header">
-        <h1 class="main-title">Welcome to Ira's Web Solutions</h1>
-        <p class="header-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi possimus blanditiis quia recusandae aperiam
-            nulla dignissimos rem sed reiciendis corrupti.</p>
-        <a href="#more-info" class="button">Read More</a>
+      <h1 class="main-title">Welcome to Ira's Web Solutions</h1>
+      <p class="header-paragraph">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi possimus
+        blanditiis quia recusandae aperiam nulla dignissimos rem sed reiciendis
+        corrupti.
+      </p>
+      <a href="#more-info" class="button">Read More</a>
     </header>
     <main>
-        <div class="main-info">
-            <h2 class="info-title">Lorem, ipsum dolor.</h2>
-            <p class="info-paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, laborum. Ex dolores laudantium
-                reprehenderit velit? Doloribus expedita iusto eveniet porro animi asperiores optio illo quibusdam, fuga
-                deleniti blanditiis eius iure nobis perspiciatis doloremque maxime maiores necessitatibus facilis quo
-                harum
-                hic!</p>
+      <section class="main-info">
+        <h2 class="info-title">Lorem, ipsum dolor.</h2>
+        <p class="info-paragraph">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
+          laborum. Ex dolores laudantium reprehenderit velit? Doloribus expedita
+          iusto eveniet porro animi asperiores optio illo quibusdam, fuga
+          deleniti blanditiis eius iure nobis perspiciatis doloremque maxime
+          maiores necessitatibus facilis quo harum hic!
+        </p>
+      </section>
+      <section class="column" id="more-info">
+        <div class="tiles">
+          <img
+            src="assets/img/webdevelopment.png"
+            alt="Web Development image"
+          />
+          <h3>Web Development</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+            similique dolores molestiae quasi eos ipsa nulla recusandae eligendi
+            natus est?
+          </p>
         </div>
-        <div class="column" id="more-info">
-            <div class="tiles">
-                <img src="assets/img/webdevelopment.png" alt="Web Development image">
-                <h3>Web Development</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque similique dolores molestiae quasi eos
-                    ipsa nulla recusandae eligendi natus est?</p>
-            </div>
-            <div class="tiles">
-                <img src="assets/img/mobile-app-1.png" alt="Mobile app image">
-                <h3>Mobile Applications</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque similique dolores molestiae quasi eos
-                    ipsa nulla recusandae eligendi natus est?</p>
-            </div>
-            <div class="tiles">
-                <img src="assets/img/digital-marketing.png" alt="Tech marketing image">
-                <h3>Tech marketing</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque similique dolores molestiae quasi eos
-                    ipsa nulla recusandae eligendi natus est?</p>
-            </div>
+        <div class="tiles">
+          <img src="assets/img/mobile-app-1.png" alt="Mobile app image" />
+          <h3>Mobile Applications</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+            similique dolores molestiae quasi eos ipsa nulla recusandae eligendi
+            natus est?
+          </p>
         </div>
-        <div class="main-info">
-            <h2 class="info-title">We handle all of your digital needs</h2>
-            <p class="info-paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime nam rerum vel earum error fugiat
-                cupiditate, dolore eius! Minus, explicabo.</p>
+        <div class="tiles">
+          <img
+            src="assets/img/digital-marketing.png"
+            alt="Tech marketing image"
+          />
+          <h3>Tech marketing</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+            similique dolores molestiae quasi eos ipsa nulla recusandae eligendi
+            natus est?
+          </p>
         </div>
-        <div class="contact-info">
-            <div class="tiles2">
-                <h2>Contact Us</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, suscipit. Rerum ducimus a quod, ut et
-                    voluptas obcaecati unde fuga, facere repudiandae, officiis.</p>
-                <a href="mailto:contact@irasolutions.test">contact@irasolutions.test</a>
-            </div>
-            <div class="tiles2">
-                <h2>About Our Company</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio earum porro deserunt, deleniti,
-                    quae facere repudiandae, officiis est exercitationem nobis iusto doloremque! Soluta excepturi in aut
-                    suscipit amet temporibus quo?</p>
-            </div>
+      </section>
+      <section class="main-info">
+        <h2 class="info-title">We handle all of your digital needs</h2>
+        <p class="info-paragraph">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime nam
+          rerum vel earum error fugiat cupiditate, dolore eius! Minus,
+          explicabo.
+        </p>
+      </section>
+      <section class="contact-info">
+        <div class="tiles2">
+          <h2>Contact Us</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum,
+            suscipit. Rerum ducimus a quod, ut et voluptas obcaecati unde fuga,
+            facere repudiandae, officiis.
+          </p>
+          <a href="mailto:contact@irasolutions.test"
+            >contact@irasolutions.test</a
+          >
         </div>
+        <div class="tiles2">
+          <h2>About Our Company</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+            earum porro deserunt, deleniti, quae facere repudiandae, officiis
+            est exercitationem nobis iusto doloremque! Soluta excepturi in aut
+            suscipit amet temporibus quo?
+          </p>
+        </div>
+      </section>
     </main>
     <footer class="page-footer">
-        <p class="p1">Ira Web Solutions</p>
-        <p class="p1">Project By <a href="https://www.traversymedia.com/">Traversy Media</a></p>
+      <p class="p1">Ira Web Solutions</p>
+      <p class="p1">
+        Project By <a href="https://www.traversymedia.com/">Traversy Media</a>
+      </p>
     </footer>
-</body>
-
+  </body>
 </html>
