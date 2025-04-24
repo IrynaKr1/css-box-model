@@ -16,7 +16,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 50vh;
+    min-height: 50vh;
     color: #fff;
     padding: 70px 0;
 }
